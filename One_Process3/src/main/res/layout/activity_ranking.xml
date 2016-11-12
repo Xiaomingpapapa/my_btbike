@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/relative4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue4">
+
+        <ImageButton
+            android:id="@+id/activity_ranking_imgbn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:src="@drawable/arrows" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="排行"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relative5"
+        android:layout_below="@+id/relative4"
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:background="@color/blue7">
+        <TextView
+            android:id="@+id/activity_number_txt_date"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016.05.12"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/hui2"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_below="@+id/relative4"
+        android:layout_width="4dip"
+        android:layout_marginLeft="50dp"
+        android:layout_height="match_parent"
+        android:background="@color/blue7"/>
+
+    <ListView
+        android:id="@+id/activity_number_lv_rank"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dip"
+        android:layout_marginRight="5dip"
+        android:dividerHeight="10dip"
+        android:layout_below="@id/relative5"/>
+
+
+</RelativeLayout>

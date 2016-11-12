@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/relative4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue4">
+        <ImageButton
+            android:id="@+id/activity_record_imgbn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:src="@drawable/arrows" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="历史记录"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <lecho.lib.hellocharts.view.ColumnChartView
+        android:id="@+id/activity_pastrecord_chart_columnchart"
+        android:layout_width="match_parent"
+        android:layout_height="250dip"
+        android:paddingTop="10dip"
+        android:paddingLeft="10dip"
+        android:layout_below="@id/relative4"/>
+
+    <ListView
+        android:id="@+id/activity_record_lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_pastrecord_chart_columnchart"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="30dip"
+        android:dividerHeight="15dp"/>
+
+</RelativeLayout>

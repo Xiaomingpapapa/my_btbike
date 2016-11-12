@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue">#8ce4eceb</color>
+    <color name="blue2">#b396d0e7</color>
+    <color name="circle_color">#23cccc</color>
+    <color name="ring_color">#17b686</color>
+    <color name="hui">#d6d0d0</color>
+    <color name="blue3">#0c6f8e</color>
+    <color name="buttom">#9dc953</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#5c9770</color>
+    <color name="green2">#56b954</color>
+    <color name="hong">#3f9490</color>
+    <color name="black">#060000</color>
+    <color name="cardcolor">#33afa0</color>
+    <color name="cardcolor2">#519b54</color>
+    <color name="cardcolor3">#cdd167</color>
+    <color name="orange">#ffad09</color>
+    <color name="blue5">#65add1</color>
+    <color name="hui2">#938f8f</color>
+   <color name="blue4">#74bee4</color>
+    <color name="blue6">#68b4a7</color>
+    <color name="blue7">#eff2f4</color>
+    <color name="blue8">#3f90e2</color>
+    <color name="red1">#ed9494</color>
+    <color name="red2">#c71b1b</color>
+    <color name="touming">#00ffffff</color>
+    <color name="green3">#84f97e</color>
+    <color name="way">#d7b796</color>
+</resources>

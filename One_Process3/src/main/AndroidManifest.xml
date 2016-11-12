@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:maxSdkVersion="17"></uses-sdk>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/main_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Activity_Login"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_Ranking"></activity>
+        <activity android:name=".Activity_Reg"></activity>
+        <activity android:name=".Activity_Person"></activity>
+        <activity android:name=".DeviceList"/>
+        <activity android:name=".Activity_Record"/>
+        <activity android:name=".Activity_Main"
+            android:launchMode="singleTop"/>
+        <activity android:name=".Activity_Game"/>
+        <activity android:name="Move1"></activity>
+
+    </application>
+
+</manifest>
